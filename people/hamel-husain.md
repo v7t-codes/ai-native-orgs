@@ -8,9 +8,21 @@ Independent ML engineer and consultant. Probably the most-cited practitioner on 
 
 ## Best pieces
 
-- 🟢 **[LLM Evals FAQ](https://hamel.dev/blog/...)** — the reference for "where do I start with evals?", distilled from teaching 700+ engineers and PMs
-- 🟢 **[Your AI Product Needs Evals](https://hamel.dev/blog/...)** — the case for eval-driven development with numbers and examples
-- **[LLM-as-Judge guide](https://hamel.dev/blog/...)** — when to use it, when not to, how to validate the judge
+- 🟢 **[LLM Evals: Everything You Need to Know (FAQ)](https://hamel.dev/blog/posts/evals-faq/)** — Hamel Husain + Shreya Shankar, 2026-01
+  Distilled from teaching 700+ engineers and PMs. Start with error analysis, not infrastructure. Spend 30 min manually reviewing 20–50 LLM outputs whenever you make significant changes. The reference for "where do I start with evals?"
+  Tags: `evals`, `practitioner-bylined`, `must-read`
+
+- 🟢 **[Your AI Product Needs Evals](https://hamel.dev/blog/posts/evals/)** — Hamel Husain
+  The case for eval-driven development. Real-world Rechat case study, with the eval-and-curation loop at the center of the system.
+  Tags: `evals`, `eval-driven-development`
+
+- **[Using LLM-as-a-Judge For Evaluation: A Complete Guide](https://hamel.dev/blog/posts/llm-judge/)** — Hamel Husain
+  When to use LLM-as-judge, when not to, and how to validate the judge itself.
+  Tags: `evals`, `llm-as-judge`
+
+- **[A Field Guide to Rapidly Improving AI Products](https://hamel.dev/blog/posts/field-guide/)** — Hamel Husain
+  The fastest path to a better AI product: error analysis → write evals for errors you discovered → fix → repeat. Anti-pattern: writing evals for errors you imagined.
+  Tags: `evals`, `methodology`
 
 ## Why he matters here
 

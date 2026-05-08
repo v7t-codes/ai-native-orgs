@@ -2,17 +2,21 @@
 
 > The IDE company also runs cloud agents at scale internally — they're not just shipping the IDE, they're using it to ship the IDE.
 
-**The headline:** Cursor's internal cloud agents originate **~35% of PRs** in their own codebase.
+**The headline:** Cursor's internal cloud agents originate **~35% of merged PRs** in their own codebase, running in isolated VMs with full dev environments.
 
 ## Practitioner sources
 
-- **[Cursor cloud agents internal usage breakdown](https://cursor.com/blog/...)** — Cursor team
-  How they use agents to maintain Cursor itself. Mix of cloud (autonomous) and inline (developer-driven).
-  Tags: `harnesses`, `pr-workflow`
+- 🟢 **[Cursor agents can now control their own computers](https://cursor.com/blog/agent-computer-use)** — Cursor team, 2026-02
+  The launch of Cloud Agents with computer use — agents in their own VMs, building/testing/recording video proof, producing merge-ready PRs. The 35% internal-PR number is the headline.
+  Tags: `harnesses`, `pr-workflow`, `cloud-agents`
 
-- **[Cursor harness primitives](https://cursor.com/...)** — Cursor team
-  Their own internal harness shape, including how they handle context, model selection, and rules.
-  Tags: `harnesses`
+- **[The third era of AI software development](https://cursor.com/blog/third-era)** — Cursor team
+  The framing post — autocomplete → chat → agents. Useful for orienting a team that's still in Era 1 or 2.
+  Tags: `framing`, `agents`
+
+- **[Build programmatic agents with the Cursor SDK](https://cursor.com/blog/typescript-sdk)** — Cursor team
+  The TypeScript SDK release. For teams building their own internal agents on Cursor primitives.
+  Tags: `sdk`, `internal-tooling`
 
 ## Voices to follow
 

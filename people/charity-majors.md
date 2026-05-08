@@ -8,8 +8,16 @@ Co-founder & CTO of Honeycomb. The most consistent observability and on-call voi
 
 ## Best pieces
 
-- 🟢 **[Honeycomb 10 Year Manifesto](https://www.honeycomb.io/...)** — observability principles applied to a decade of running production. The high-cardinality argument applies doubly to agent systems.
-- **Multiple posts on on-call, debugging, and the social-technical bind of incident response** — most are pre-AI-native but the principles transfer cleanly
+- 🟢 **[Honeycomb 10 Year Manifesto: Observability in a World of AI](https://www.honeycomb.io/blog/honeycomb-10-year-manifesto-part-1)** — Charity Majors + Christine Yen, 2026
+  Looking back at what Honeycomb said 10 years ago, what seemed radical, and what's still true now that AI is here. The high-cardinality-and-context argument applies doubly to agent systems.
+  Tags: `observability`, `engineering-culture`
+
+- **[Observability: A Manifesto](https://www.honeycomb.io/blog/observability-a-manifesto)** — Charity Majors
+  The original. Pre-AI but the principles transfer cleanly to agent systems where you can't predict what to log in advance.
+  Tags: `observability`, `foundational`
+
+- **[charity.wtf](https://charity.wtf)** — index
+  Multiple posts on on-call, debugging, and the social-technical bind of incident response. Most are pre-AI but the failure modes transfer.
 
 ## Why she matters here
 

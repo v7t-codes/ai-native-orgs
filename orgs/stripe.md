@@ -2,23 +2,25 @@
 
 > The 2026 anchor data point for what AI-native engineering looks like at scale.
 
-**The headline:** **Minions** — Stripe's internal agent fleet — generated **1,300+ end-to-end PRs/week** on top of a 1,370-engineer Claude Code rollout. Their Scala→Java migration: **4 days vs. 10 weeks** estimated by humans.
-
-What's interesting about Stripe specifically isn't that they have agents — every company does now — it's that they've made the agent fleet large enough that it's a load-bearing part of how the company ships. The 1,300/week number is the one to remember when someone asks "is anyone actually getting this to work?"
+**The headline:** **Minions** — Stripe's internal agent fleet — generated **1,300+ end-to-end PRs/week** in early 2026. Built on a fork of Block's Goose, with Stripe-specific blueprint architecture (deterministic + agentic nodes wired together). Humans still review every Minion PR before merge — agents have submission authority, not merge authority.
 
 ## Practitioner sources
 
-- **[Stripe Minions: How agent PRs work](https://stripe.com/blog/...)** — Stripe Engineering, 2026
-  Mechanism: agents pick well-scoped tasks from a queue, do plan → code → tests → PR end-to-end, humans review before merge. Full numbers on PR throughput, code quality, and revert rate.
-  Tags: `harnesses`, `pr-workflow`, `metrics`
+- 🟢 **[Minions: Stripe's one-shot, end-to-end coding agents](https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents)** — Alistair Gray (Stripe), 2026-02
+  The official engineering blog post. Mechanism: agents pick well-scoped tasks from a queue, plan → code → tests → PR end-to-end, humans review before merge. Built on a Goose fork, customized for Stripe's LLM infra.
+  Tags: `harnesses`, `pr-workflow`, `metrics`, `must-read`
 
-- **[The Scala→Java migration case study](https://stripe.com/blog/scala-java-migration)** — Stripe Engineering, 2026
-  How a single agent owned a multi-week migration in 4 days, including the human review/escalation patterns. The practical guide to "what kind of work is this good at."
-  Tags: `migration`, `agents`, `pr-workflow`
+- **[Minions Part 2](https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2)** — Stripe Engineering
+  The follow-up post — what they learned operating Minions in production, what they changed, what they'd do differently.
+  Tags: `harnesses`, `lessons`
 
-- **[InfoQ deep-dive on Minions](https://www.infoq.com/articles/stripe-minions/)** — InfoQ interview, 2026
-  Engineer-level interview on the harness primitives, how they handle agent failures, and the orchestration layer.
-  Tags: `harnesses`, `architecture`
+- **[How Stripe built "minions" (Lenny's Newsletter)](https://www.lennysnewsletter.com/p/how-stripe-built-minionsai-coding)** — Steve Kaliski (Stripe engineer), interviewed by Lenny Rachitsky
+  Engineer-bylined interview on how Slack-emoji-reactions trigger PRs and the practical workflow. The non-engineering-blog version of the story.
+  Tags: `interview`, `pr-workflow`
+
+- **[Stripe Engineers Deploy Minions (InfoQ)](https://www.infoq.com/news/2026/03/stripe-autonomous-coding-agents/)** — InfoQ
+  External coverage with engineer interviews. Useful for the architecture summary.
+  Tags: `coverage`, `architecture`
 
 ## What Stripe is *not* a great source for (yet)
 

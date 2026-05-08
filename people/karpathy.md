@@ -8,16 +8,17 @@ Founding member of OpenAI, ex-Tesla AI lead, prolific solo educator. Posts techn
 
 ## Best pieces
 
-- 🟢 **[The CLAUDE.md tweet](https://x.com/karpathy/status/...)** — Jan 2026
-  The cultural inflection. 80/20 manual+autocomplete → 80/20 agent coding. Spawned a 100K-star repo.
-  Tags: `cultural-inflection`, `claude-code`
+- 🟢 **["80% agent coding and 20% edits+touchups"](https://x.com/karpathy/status/2015883857489522876)** — Andrej Karpathy, 2026-01
+  The cultural inflection. Went from ~80% manual+autocomplete in November to ~80% agent coding by late January. *"Easily the biggest change to my basic coding workflow in 2 decades of programming."* The thread spawned a derivative CLAUDE.md repo (forrestchang/andrej-karpathy-skills) that hit 100K+ stars.
+  Tags: `cultural-inflection`, `claude-code`, `must-read`
 
-- **[nanochat skills directory](https://github.com/karpathy/nanochat)** — GitHub
-  Karpathy's personal-stack version of an internal AI agent setup. Worth reading as primary source.
-  Tags: `harnesses`, `personal-stack`
+- **[nanochat](https://github.com/karpathy/nanochat)** — Karpathy, GitHub
+  Minimal, from-scratch full-stack training/inference pipeline of a ChatGPT clone in a single repo. The codebase he's been doing his agent-coding experiments in.
+  Tags: `from-scratch`, `personal-stack`
 
-- **[Multiple threads on AI coding shift](https://x.com/karpathy)** — various
-  Almost any technical thread from him is worth reading; pick the recent ones that reference his current setup.
+- **[autoresearch — AI agents running research on single-GPU nanochat](https://github.com/karpathy/autoresearch)** — Karpathy, GitHub
+  Letting agents experiment overnight on small but real LLM training setups. 8 agents (4 Claude, 4 Codex), 1 GPU each. Honest about what doesn't work.
+  Tags: `agents`, `research`, `experiments`
 
 ## Why he matters here
 

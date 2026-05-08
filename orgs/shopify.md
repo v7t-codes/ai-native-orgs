@@ -4,17 +4,13 @@
 
 ## Practitioner sources
 
-- 🟢 **[The Tobi memo on AI-as-baseline](https://x.com/tobi/status/...)** — Tobi Lütke (CEO), 2025
-  The core argument: AI usage is no longer optional, it's the new floor for engineering productivity. Reframes review, hiring, and headcount planning around that.
+- 🟢 **["Reflexive AI usage is now a baseline expectation at Shopify"](https://x.com/tobi/status/1909251946235437514)** — Tobi Lütke (CEO), 2025-04
+  The memo. Reframed review, hiring, and headcount: managers asking for new human talent must explain why the job can't be done by AI. AI usage added to performance and peer review.
   Tags: `org-rollout`, `culture`, `hiring`
 
-- **[Shopify engineering on AI workflows](https://shopify.engineering/...)** — Shopify Engineering
-  How engineers actually adopted AI tools day-to-day after the memo. Specific examples of changed workflows.
-  Tags: `org-rollout`, `tooling`
+## What's still missing here
 
-- **[Shopify on First Round Review](https://review.firstround.com/...)** — Various Shopify engineering leaders
-  Interviews with hands-on Shopify engineers on the rollout. Some sales-y framing but the substance is there.
-  Tags: `org-rollout`, `interviews`
+The memo set the cultural baseline. The post-memo eng-bylined content from Shopify on what actually changed day-to-day is harder to find in canonical form — most of what circulates is third-party coverage. If you work at Shopify and have published practitioner-grade material on the post-memo workflow shift, please open a PR.
 
 ## Voices to follow
 

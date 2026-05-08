@@ -10,10 +10,10 @@
   The launch post. Frames the data-layer-first strategy. Borderline corpo but has the architecture argument worth reading.
   Tags: `data-layer`, `architecture`, `borderline`
 
-- **[Rippling engineering on the unified employee data model](https://eng.rippling.com/...)** — Rippling Engineering
-  How they unified payroll, HR, devices, access into one schema. The pre-AI work that made AI possible.
-  Tags: `data-layer`, `architecture`
+- **[Rippling Engineering Blog Hub](https://www.rippling.com/blog/hub/engineering)** — Rippling Engineering
+  Index. Look for posts on the unified employee data model and the AI agents that sit on top. The SIEM series ([part 1](https://www.rippling.com/blog/engineering-siem-part-1), [part 2](https://www.rippling.com/blog/engineering-siem-part-2), [part 3](https://www.rippling.com/blog/engineering-siem-part-3)) is a good example of their engineering writing style.
+  Tags: `index`
 
-## What's missing here
+## What's still missing here
 
 Need engineer-bylined posts on how the AI agents actually query the data layer, the latency/freshness tradeoffs, and the access-control model. PRs welcome.

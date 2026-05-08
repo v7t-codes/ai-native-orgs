@@ -1,22 +1,18 @@
 # OpenAI
 
-> Codex team publishes some of the most direct "this is how we ship with our own agents" content.
+> The Codex team publishes some of the most direct "this is how we ship with our own agents" content. Coined the term "harness engineering" in its current usage.
 
 ## Practitioner sources
 
-- 🟢 **[Codex Harness Engineering](https://openai.com/research/...)** — Lopopolo, MTS, 2026
-  The "0 lines of manually-written code over 5 months" piece, engineer-bylined. Walks through the harness loop, the eval suite, and the policies that made it possible.
-  Tags: `harnesses`, `codex`, `practitioner-bylined`
+- 🟢 **[Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)** — Ryan Lopopolo (OpenAI), 2026-02
+  The 5-month internal experiment: ~1M lines of code, beta product, **0% manually-written source code, 0% manual review**. The discipline they call "harness engineering" — designing the constraints, feedback loops, docs structures, linting, observability, and lifecycle management that lets agents operate reliably at scale. Engineer-bylined and concrete.
+  Tags: `harnesses`, `codex`, `practitioner-bylined`, `must-read`
 
-- **[Unrolling the Codex agent loop](https://openai.com/research/...)** — OpenAI Codex team
-  Step-by-step of what one Codex iteration actually does. Useful for designing your own agent loops.
-  Tags: `harnesses`, `codex`
-
-- **[Unlocking the Codex harness](https://openai.com/research/...)** — OpenAI Codex team
-  How they evolved the harness over time — what they added, what they removed, why.
-  Tags: `harnesses`, `codex`
+- **[Extreme Harness Engineering for Token Billionaires (Latent Space)](https://www.latent.space/p/harness-eng)** — Ryan Lopopolo (OpenAI Frontier & Symphony), interviewed by Latent Space
+  The longer-form interview version: 1M LOC, 1B tokens/day, 0% human code, 0% human review. The numbers and the failure modes that *did* surface despite the engineering.
+  Tags: `harnesses`, `codex`, `interview`
 
 ## Voices to follow
 
-- **[@lopopolo](https://x.com/lopopolo)** — Codex MTS, generally substantive
+- **[@lopopolo](https://x.com/lopopolo)** — Ryan Lopopolo, OpenAI MTS, generally substantive
 - **[@gdb](https://x.com/gdb)** — Greg Brockman, when he's posting technical not corporate

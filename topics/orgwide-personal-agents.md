@@ -6,14 +6,14 @@ This is the rollout problem most non-AI-native orgs face. The eng questions: how
 
 ## Flagship orgs
 
-- [Coinbase](../orgs/coinbase.md) — personal AI agents per employee, eng + non-eng
-- [Anthropic-internal](../orgs/anthropic.md) — they eat their own dog food more publicly than most
+- [Coinbase](../orgs/coinbase.md) — personal AI agents per employee, eng + non-eng. [Building enterprise AI agents at Coinbase](https://www.coinbase.com/blog/building-enterprise-AI-agents-at-Coinbase) is the eng-bylined post.
+- [Anthropic-internal](../orgs/anthropic.md) — eats its own dog food more publicly than most. See [How Anthropic teams use Claude Code](https://claude.com/blog/how-anthropic-teams-use-claude-code) — lawyers building phone trees, marketers generating ad variations, data scientists making visualizations without JS.
 - [Shopify](../orgs/shopify.md) — Tobi memo set the cultural baseline
 
 ## Practitioner sources
 
 - See individual org pages above
-- **[Karpathy's nanochat skills directory](https://github.com/karpathy/nanochat)** — practical example of how a single person builds their own internal agent stack
+- **[Karpathy — autoresearch](https://github.com/karpathy/autoresearch)** — practical example of how a single person builds their own internal agent stack
 
 ## What's underexplored
 
@@ -21,4 +21,4 @@ This is the rollout problem most non-AI-native orgs face. The eng questions: how
 - Audit and reversal — when an agent ships something wrong, what's the recovery flow?
 - Cross-employee delegation — can my agent talk to your agent?
 
-This page is thin. Open a PR.
+Open a PR.

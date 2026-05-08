@@ -8,8 +8,17 @@ Applied scientist (ex-Amazon). Writes deeply on ML systems, evals, and the opera
 
 ## Best pieces
 
-- 🟢 **[Evaluating LLM-Evaluators](https://eugeneyan.com/...)** — the meta-eval question — how do you trust the thing that's evaluating your model?
-- **Multiple deep posts on RAG, evals, and ML systems** — generally substantive
+- 🟢 **[Evaluating the Effectiveness of LLM-Evaluators (LLM-as-Judge)](https://eugeneyan.com/writing/llm-evaluators/)** — Eugene Yan
+  Drawing from two dozen papers — when to use direct scoring vs. pairwise comparisons, correlation vs. classification metrics, LLM APIs vs. finetuned evaluators. The reference for "should I trust an LLM to grade my LLM?"
+  Tags: `evals`, `meta-eval`, `llm-as-judge`
+
+- **[Task-Specific LLM Evals that Do & Don't Work](https://eugeneyan.com/writing/evals/)** — Eugene Yan
+  Concrete patterns: which eval shapes ship and which break. Practical and dense.
+  Tags: `evals`
+
+- **[AlignEval: Building an App to Make Evals Easy, Fun, and Automated](https://eugeneyan.com/writing/aligneval/)** — Eugene Yan
+  Building a real eval app, with the design choices and tradeoffs walked through.
+  Tags: `evals`, `tooling`
 
 ## Why he matters here
 

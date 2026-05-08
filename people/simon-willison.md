@@ -8,8 +8,19 @@ Co-creator of Django, prolific blogger, and probably the most consistent practit
 
 ## Best pieces
 
-- 🟢 **[Agentic Engineering Patterns (series)](https://simonwillison.net/series/...)** — pattern catalog. "Hoard things" and "Linear walkthroughs" chapters are particularly good.
-- **TIL feed and weekly link roundups** — not a single piece, but the cadence and curation is itself a resource
+- 🟢 **[Agentic Engineering Patterns (guide)](https://simonwillison.net/guides/agentic-engineering-patterns/)** — Simon Willison, 2026
+  Multi-chapter guide on coding practices for agentic engineering — Claude Code, Codex, etc. Loose homage to *Design Patterns: Elements of Reusable Object-Oriented Software*. Chapters include "Writing code is cheap now," "Hoard things you know how to do," and chapters on cognitive debt and custom interactive explanations.
+  Tags: `patterns`, `practitioner-bylined`, `must-read`
+
+- **[Writing about Agentic Engineering Patterns](https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/)** — Simon Willison
+  The launch post explaining why he started the series and what shape it's taking.
+  Tags: `meta`
+
+- **[An AI state of the union (Lenny's Newsletter interview)](https://www.lennysnewsletter.com/p/an-ai-state-of-the-union)** — Simon Willison interviewed by Lenny Rachitsky
+  The "we've passed the inflection point, dark factories are coming" interview. Useful as a periodic check on where the field is.
+  Tags: `state-of-the-field`, `interview`
+
+- **TIL feed and weekly link roundups** at [simonwillison.net](https://simonwillison.net) — not a single piece, but the cadence and curation is itself a resource.
 
 ## Why he matters here
 

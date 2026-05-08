@@ -1,14 +1,15 @@
 # Boris Cherny
 
-Engineering lead at Anthropic working on Claude Code. The "vanilla setup" guy.
+Engineer at Anthropic. Created Claude Code. The "vanilla setup" guy.
 
 **Where to follow:**
-- X: [@boris_cherny](https://x.com/boris_cherny)
+- X: [@bcherny](https://x.com/bcherny)
 
 ## Best pieces
 
-- 🟢 **["Vanilla CLAUDE.md" tweet](https://x.com/boris_cherny/status/...)** — the counter-thesis to elaborate harness setups. One CLAUDE.md, no orchestration layer, gets you most of the way for most work.
-- **Periodic threads on Claude Code internals** — generally substantive
+- 🟢 **["I'm Boris and I created Claude Code"](https://x.com/bcherny/status/2007179832300581177)** — Boris Cherny
+  The reference thread on how the *creator* of Claude Code uses Claude Code. Surprisingly vanilla setup: single CLAUDE.md per repo checked into git, 5 Claudes running in parallel locally + 5–10 on claude.ai/code, slash commands for inner-loop workflows (`.claude/commands/`), Plan mode → auto-accept edits as the default flow, Opus 4.5 with thinking for everything. The counter-thesis to elaborate harness setups.
+  Tags: `claude-code`, `vanilla-setup`, `practitioner-bylined`
 
 ## Why he matters here
 

@@ -8,12 +8,12 @@ If your eng team is being asked "why can't our internal AI answer questions abou
 
 - [Rippling](../orgs/rippling.md) — unified HR/payroll/devices/access schema, then AI on top
 - [Glean](https://www.glean.com/) — search-grounded enterprise assistant; the data layer is the index
-- [Notion AI](https://www.notion.so/help/notion-ai) — every doc and database becomes context
+- [Notion AI](https://www.notion.com/product/ai) — every doc and database becomes context
 
 ## Practitioner sources
 
-- See [Rippling engineering blog](../orgs/rippling.md) for architecture argument
-- See [Glean's engineering blog](https://www.glean.com/blog/) — generally substantive on indexing
+- **[Introducing Rippling AI](https://www.rippling.com/blog/introducing-rippling-ai)** — the architecture argument
+- **[Glean blog](https://www.glean.com/blog)** — generally substantive on indexing and retrieval for the enterprise
 
 ## What's underexplored
 

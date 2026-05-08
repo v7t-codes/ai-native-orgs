@@ -4,10 +4,11 @@
 
 ## Practitioner sources
 
-- 🟢 **[Block — Stage-1 to Stage-6 maturity ladder](../orgs/block.md)** — the framework most teams steal
-- 🟢 **[Stripe Minions — PR throughput numbers](../orgs/stripe.md)** — 1,300+ PRs/week as a north star
-- **[APEX-SWE Leaderboard](https://x.com/adarsh_exe/status/...)** — every frontier model fails ~60% of real production tasks; honest data point
-- **[Ramp's Latent Briefing — token efficiency metrics](../orgs/ramp.md)** — 49% median token savings, 65% worker token reduction
+- 🟢 **[Block — Stage-1 to Stage-6 maturity ladder](https://engineering.block.xyz/blog/ai-assisted-development-at-block)** — the framework most teams steal. 95% adoption, largest population at Stage 5 (single agent outside IDE), second-largest at Stage 6 (3–5 agents in parallel).
+- 🟢 **[Stripe Minions — PR throughput numbers](https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents)** — 1,300+ agent PRs/week as a north star
+- **[Mercor × Cognition — APEX-SWE Leaderboard](https://www.mercor.com/blog/introducing-apex-swe/)** — every frontier model fails ~60% of real production tasks; honest data point
+- **[Ramp Labs — Latent Briefing token efficiency metrics](https://x.com/RampLabs/status/2042660310851449223)** — 49% median token savings, 65% worker token reduction
+- **[OpenAI Codex — 1M LOC, 0% manual code, 0% manual review over 5 months](https://openai.com/index/harness-engineering/)** — extreme but instructive
 
 ## Metrics that broke and what people use instead
 

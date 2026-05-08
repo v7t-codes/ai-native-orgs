@@ -4,15 +4,14 @@
 
 ## Practitioner sources
 
-- **[Sourcegraph engineering blog — Cody internals](https://about.sourcegraph.com/blog/...)** — Sourcegraph Engineering
-  How Cody navigates large codebases, the context-window strategies, the code-graph indexing.
+- **[Sourcegraph blog](https://sourcegraph.com/blog)** — index. Generally substantive on Cody internals, code-graph indexing, and context strategies for large codebases.
   Tags: `harnesses`, `code-navigation`, `large-codebases`
-
-- **[Beyang Liu's threads on agent reliability](https://x.com/beyang)** — Beyang Liu (Sourcegraph CTO)
-  Generally substantive on what works and doesn't in production agent systems.
-  Tags: `harnesses`, `reliability`
 
 ## Voices to follow
 
-- **[@beyang](https://x.com/beyang)** — Sourcegraph CTO
-- **[@sqs](https://x.com/sqs)** — Quinn Slack, Sourcegraph CEO, often substantive
+- **[@beyang](https://x.com/beyang)** — Beyang Liu, Sourcegraph CTO. Generally substantive on what works and doesn't in production agent systems.
+- **[@sqs](https://x.com/sqs)** — Quinn Slack, Sourcegraph CEO
+
+## What's still missing here
+
+This page is thin. Specific Sourcegraph engineering posts on Cody's internals and the context-window strategies they use for large codebases would slot in well. PRs welcome.

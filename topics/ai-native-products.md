@@ -7,7 +7,8 @@ This page is intentionally smaller than the eng-internal sections — most of th
 ## Practitioner sources
 
 - See [topics/reliability.md](reliability.md) for failure-mode patterns
-- See [orgs/anthropic.md](../orgs/anthropic.md) and [orgs/openai.md](../orgs/openai.md) for AI-as-product specifics
+- See [orgs/anthropic.md](../orgs/anthropic.md) for Claude as product
+- See [orgs/openai.md](../orgs/openai.md) for Codex / ChatGPT as products
 
 ## What's underexplored
 

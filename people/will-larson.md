@@ -1,6 +1,6 @@
 # Will Larson
 
-Engineering leader (ex-Calm, Stripe, Uber, Digg). Author of *An Elegant Puzzle*, *Staff Engineer*, *The Engineering Executive's Primer*. Currently building an internal agent in public, weekly.
+Engineering leader (CTO at Imprint, ex-Calm, Stripe, Uber, Digg). Author of *An Elegant Puzzle*, *Staff Engineer*, *The Engineering Executive's Primer*. Currently building an internal agent framework in public, weekly.
 
 **Where to follow:**
 - Blog: [lethain.com](https://lethain.com)
@@ -8,10 +8,18 @@ Engineering leader (ex-Calm, Stripe, Uber, Digg). Author of *An Elegant Puzzle*,
 
 ## Best pieces
 
-- 🟢 **[agents-series](https://lethain.com/agents-series/)** — a multi-part log of building an internal agent. Episodes on scaffolding, subagents, iterative refinement, transcripts, and "agentic passive voice." This is the closest thing to a real-time engineering manager's diary on building an agent.
-  Tags: `harnesses`, `agents-in-prod`, `engineering-management`
+- 🟢 **[Building internal agents (series index)](https://lethain.com/agents-series/)** — Will Larson
+  The reference. A multi-part log of building Imprint's internal agent framework, weekly. Includes:
+  - [Logging and debugability](https://lethain.com/agents-logging/)
+  - [Adding support for Agent Skills](https://lethain.com/agents-skills/)
+  - [Subagent support](https://lethain.com/agents-subagents/)
+  - [Evals to validate workflows](https://lethain.com/agents-evals/)
+  This is the closest thing to a real-time engineering manager's diary on building an agent.
+  Tags: `harnesses`, `agents-in-prod`, `engineering-management`, `must-read`
 
-- **[Earlier writing](https://lethain.com/)** — *An Elegant Puzzle* and *Staff Engineer* are foundational eng-leadership reading; the agent-series sits on top of that knowledge
+- **[lethain.com](https://lethain.com)** — index of earlier writing
+  *An Elegant Puzzle* and *Staff Engineer* are foundational eng-leadership reading; the agent series sits on top of that knowledge.
+  Tags: `engineering-leadership`, `index`
 
 ## Why he matters here
 
