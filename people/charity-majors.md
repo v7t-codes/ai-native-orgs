@@ -12,13 +12,6 @@ Co-founder & CTO of Honeycomb. The most consistent observability and on-call voi
   Looking back at what Honeycomb said 10 years ago, what seemed radical, and what's still true now that AI is here. The high-cardinality-and-context argument applies doubly to agent systems.
   Tags: `observability`, `engineering-culture`
 
-- **[Observability: A Manifesto](https://www.honeycomb.io/blog/observability-a-manifesto)** — Charity Majors
-  The original. Pre-AI but the principles transfer cleanly to agent systems where you can't predict what to log in advance.
-  Tags: `observability`, `foundational`
-
-- **[charity.wtf](https://charity.wtf)** — index
-  Multiple posts on on-call, debugging, and the social-technical bind of incident response. Most are pre-AI but the failure modes transfer.
-
 ## Why she matters here
 
 Most "AI for SRE" content right now is detection-focused. Charity's writing is on the *human-coordination* side of incidents — which is where AI-native systems break in messier ways than non-AI systems. Worth reading even if you only build internal tools, because the failure modes are upstream of the same problems.

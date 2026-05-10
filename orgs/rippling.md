@@ -11,7 +11,7 @@
   Tags: `data-layer`, `architecture`, `borderline`
 
 - **[Rippling Engineering Blog Hub](https://www.rippling.com/blog/hub/engineering)** — Rippling Engineering
-  Index. Look for posts on the unified employee data model and the AI agents that sit on top. The SIEM series ([part 1](https://www.rippling.com/blog/engineering-siem-part-1), [part 2](https://www.rippling.com/blog/engineering-siem-part-2), [part 3](https://www.rippling.com/blog/engineering-siem-part-3)) is a good example of their engineering writing style.
+  Generic engineering index. Filter for AI-related posts — Rippling's blog covers infra/security/HR-eng broadly, only a subset is AI-native.
   Tags: `index`
 
 ## What's still missing here

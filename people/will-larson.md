@@ -17,10 +17,6 @@ Engineering leader (CTO at Imprint, ex-Calm, Stripe, Uber, Digg). Author of *An 
   This is the closest thing to a real-time engineering manager's diary on building an agent.
   Tags: `harnesses`, `agents-in-prod`, `engineering-management`, `must-read`
 
-- **[lethain.com](https://lethain.com)** — index of earlier writing
-  *An Elegant Puzzle* and *Staff Engineer* are foundational eng-leadership reading; the agent series sits on top of that knowledge.
-  Tags: `engineering-leadership`, `index`
-
 ## Why he matters here
 
 He's an engineering leader writing in real-time about what works and what doesn't, on a small team, with limited resources. Most "build an agent" content is either a vendor selling you something or a research paper from a lab — Will's series is the in-between practitioner view that's missing almost everywhere.

@@ -12,10 +12,6 @@
   Their `qa-ai-agent` — natural-language test prompts ("log into coinbase test account in Brazil, and buy 10 BRL worth of BTC") that take minutes vs. weeks for human QA.
   Tags: `qa`, `internal-tooling`
 
-- **[Coinbase Engineering Blog](https://www.coinbase.com/blog/landing/engineering)** — Coinbase Engineering
-  Index. Most posts are practitioner-bylined; skip the CEO-letter format ones.
-  Tags: `index`
-
 ## What's still missing here
 
 If you work at Coinbase and have written about the day-to-day data layer, personalization model, or security architecture for the personal-agent rollout, please open a PR. The published material is heavy on the QA agent and the platform; lighter on how the per-employee agents actually work.
