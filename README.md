@@ -28,6 +28,7 @@ Most resources show up in more than one place — an Anthropic blog post about h
 | [AI-native products](topics/ai-native-products.md) | When AI is in the product critical path |
 | [Org, hiring & culture](topics/org-and-hiring.md) | What roles change, what skills matter, how to hire |
 | [Metrics that hold up](topics/metrics.md) | What to measure when AI is generating most of the code |
+| [Enterprise automation modeling](topics/enterprise-automation-modeling.md) | How to model an entire enterprise for progressive autonomy — the eight engines, work classification, autonomy spectrum, interface layer |
 | [Foundational reading](topics/foundational.md) | The pieces that frame the whole space |
 
 ## Flagship orgs
