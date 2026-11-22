@@ -16,4 +16,4 @@
 
 ## Voices to follow
 
-- **[@block_engineering](https://x.com/block_engineering)** — the org account stays substantive
+- **[Block Engineering blog](https://engineering.block.xyz/blog)** — the org's engineering posts (the earlier @block_engineering X link no longer resolves)

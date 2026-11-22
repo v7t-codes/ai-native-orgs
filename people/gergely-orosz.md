@@ -12,6 +12,10 @@ Engineering writer. Runs *The Pragmatic Engineer* — one of the largest enginee
   Personal account from his winter break — building features for *The Pragmatic Engineer* with AI agents (subscriptions, admin panel). Notes the inflection point and what changes for engineering managers. References the "100% of code contributed by Cherny was AI-written" data point.
   Tags: `engineering-management`, `velocity`, `practitioner-bylined`
 
+- **[Inside OpenAI's agentic software factory](https://newsletter.pragmaticengineer.com/p/openai-software-factory)** — Gergely Orosz, 2026-09 (paywalled from section 4)
+  Interviews with seven named OpenAI engineering leads on the whole pipeline: risk-classified agent review, opt-in auto-approval for low-risk areas, and a deploy agent told to "handhold this change until it is safely and fully rolled out into production." Codex use on non-engineering teams went from roughly 0% to about 90% in four months, and some systems saw roughly 10x more load.
+  Tags: `software-factory`, `code-review`, `openai`, `paywalled`
+
 - **[The grief when AI writes most of the code](https://blog.pragmaticengineer.com/the-grief-when-ai-writes-most-of-the-code/)** — Gergely Orosz
   Companion piece. The emotional/identity side of the change for senior engineers — under-discussed, useful for managers.
   Tags: `engineering-management`, `culture`
