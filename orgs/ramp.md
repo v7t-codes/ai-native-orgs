@@ -1,6 +1,6 @@
 # Ramp / Ramp Labs
 
-> Probably the most public AI-native engineering org outside the AI labs themselves. Publishes real research alongside production internal tools.
+> Probably the most public AI-native engineering org outside the AI labs themselves. Publishes real research alongside production internal tools. By June 2026, 76.5% of PRs merged over six months had been created with Inspect, its background coding agent.
 
 **The headline:** **Ramp Inspect** — internal review/PR system where **>50% of PRs are agent-originated**, with humans reviewing before merge. Plus **Latent Briefing** — Ramp Labs research on KV cache compaction for multi-agent systems.
 
@@ -16,7 +16,19 @@ Ramp is interesting because they treat AI-native engineering as a research org a
   The shift from writing code to maintaining code as the primary engineering activity. Demo of code self-maintaining software.
   Tags: `talks`, `architecture`
 
-- **[Ramp Labs](https://ramplabs.com/)** — Ramp Labs blog index
+- **[Inspect at Scale](https://x.com/_dylanga/status/2067999346780524753)** — Dylan Garcia, 2026-06
+  Adoption, latency and cost numbers for Inspect: 76.5% of PRs merged over six months were created with it, and sandbox time-to-interactive fell from about 6.5s to 2s. It also reports a failed token-compression experiment, where the tokens saved were offset by the model retrying commands it no longer recognised.
+  Tags: `background-agents`, `metrics`, `cost`
+
+- **[How we built OCA, our AI on-call assistant](https://builders.ramp.com/post/how-we-built-oca-our-ai-on-call-assistant)** — Richard Marmorstein, Austin Ray, 2026-09
+  An incident agent built from Claude Code or Codex in a monorepo checkout and run on Temporal, which assisted with 575 of 1,220 merged incident-fix PRs in four weeks. Hooks that demanded proof of compliance caused retry loops, so the team switched to one-shot detours, and memory indexed by monitor, team and service sped up investigations without moving ratings.
+  Tags: `reliability`, `on-call`, `harnesses`, `memory`
+
+- **[Building LLM Judges to Judge LLMs](https://builders.ramp.com/post/building-llm-judges-to-judge-llms)** — Sachet Bangia, Shaiyon Hariri, 2026-11
+  An internal coding benchmark built from Inspect sessions that ended in merged PRs, used to guide token spend. The tests shipped with those PRs were over- or under-specified, and splitting "find the differences" from "judge whether they matter" raised agreement between two model judges from 54.2% to 76.4% on first vote and 93.6% after deliberation.
+  Tags: `evals`, `llm-judges`, `benchmarks`
+
+- **[Ramp Builders](https://builders.ramp.com/)** — Ramp engineering blog index
   Catch-all. Most posts are practitioner-grade; skip the founder-letter style ones.
   Tags: `index`
 
@@ -25,3 +37,9 @@ Ramp is interesting because they treat AI-native engineering as a research org a
 - **[@b_geist](https://x.com/b_geist)** — Ben Geist, Ramp Labs research engineer
 - **[@a_levitator](https://x.com/a_levitator)** — Aaron Levitator, Ramp Labs
 - **[@RampLabs](https://x.com/RampLabs)** — the org account, generally substantive
+- **[@_dylanga](https://x.com/_dylanga)** — Dylan Garcia, Senior Staff Engineer on Inspect
+
+## What's still missing here
+
+- A write-up on builders.ramp.com of how Inspect is built, with current adoption numbers. The latest numbers are in an X article.
+- A primary engineering source on total token spend and how it is budgeted.
