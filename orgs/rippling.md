@@ -20,4 +20,4 @@
 
 ## What's still missing here
 
-No public engineer-bylined source was found on a skills hub-and-spoke model at Rippling, or on the AI data layer internals: how agents query the data layer, the latency and freshness tradeoffs, and the access-control model. The adoption post above describes no centralized skills hub. PRs welcome.
+No public engineer-bylined source was found on a skills hub-and-spoke model at Rippling, or on the AI data layer internals: how agents query the data layer, the latency and freshness tradeoffs, and the access-control model. The adoption post above describes no centralized skills hub; for a public example of one, see Ramp's Dojo in [orgs/ramp.md](ramp.md). PRs welcome.
