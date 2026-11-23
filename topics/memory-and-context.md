@@ -75,6 +75,10 @@
   How Anthropic runs hundreds of internal skills with no central curation team: skills start in a sandbox folder, get shared in Slack, and move to a plugin marketplace by PR once they gain traction, while a PreToolUse hook logs use to find popular and under-triggering skills. Verification skills had the most measurable impact, enough that the post suggests an engineer spend a week making them excellent.
   Tags: `skills`, `distribution`, `hooks`
 
+- **[Ramp — We Built Every Employee at Ramp Their Own AI Coworker](https://x.com/sebgoddijn/status/2042285915435937816)** — Seb Goddijn, 2026-04
+  Dojo, the skills marketplace inside Ramp's Glass workspace: 350+ skills, Git-backed, versioned and reviewed like code, so a sales rep's Gong-call analysis or a CX engineer's Zendesk workflow becomes available to the whole team. A recommender called Sensei surfaces the five skills most useful for a person's role and connected tools, so a new account manager starts with five instead of browsing 350. The people who got the most value installed a skill on day one and got a result straight away.
+  Tags: `skills`, `distribution`, `non-engineers`
+
 - **[Intercom — Claude Code: Good skills, bad skills](https://ideas.fin.ai/p/claude-code-good-skills-bad-skills)** — Brian Scanlan, 2026-07
   A central skills repo at scale: 153 contributors (31% of R&D) and 267 skills, with a public subset at github.com/intercom/2x-skills. Good skills do one thing, script the deterministic parts, keep evals and have owners; a 7-category rubric reviews new skills, and hooks force domain skills to load before, for example, Snowflake queries.
   Tags: `skills`, `governance`, `hooks`

@@ -59,7 +59,7 @@ A starting set. The full list lives in [`orgs/`](orgs/).
 | Org | Known for |
 |---|---|
 | [Stripe](orgs/stripe.md) | Minions — "over a thousand pull requests merged each week are completely minion-produced" (stripe.dev, 2026-02) |
-| [Ramp](orgs/ramp.md) | Inspect (>50% PRs agent-originated), Latent Briefing research, AI software factories |
+| [Ramp](orgs/ramp.md) | Inspect (>50% PRs agent-originated), Glass and its Dojo skills marketplace, Latent Briefing research, AI software factories |
 | [Anthropic](orgs/anthropic.md) | Claude Code, harness primitives, agent memory layers, Project Glasswing, moving its monorepo off git |
 | [OpenAI](orgs/openai.md) | Codex harness engineering, autonomous PR shipping |
 | [Cursor](orgs/cursor.md) | Cloud agents went from about 1 in 10 monorepo PRs (Dec 2025) to more than half (July 2026) |

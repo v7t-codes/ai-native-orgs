@@ -67,6 +67,10 @@
   Four role-specific agents failed and were merged into one agent with one Slack handle, which reaches 37 systems through the MCP Gateway and inherits each employee's access. 75,000+ sessions for 600+ people, and the author warns that session counts measure activity: "We don't have a good way to measure that yet."
   Tags: `org-rollout`, `non-engineers`, `internal-agent`
 
+- **[Ramp — We Built Every Employee at Ramp Their Own AI Coworker](https://x.com/sebgoddijn/status/2042285915435937816)** — Seb Goddijn, 2026-04
+  At 99% adoption of AI tools, most Ramp staff were stuck on terminal, npm and MCP setup, so Ramp built Glass: one Okta sign-in connects every tool, Dojo shares 350+ reviewed skills, and scheduled automations and Slack assistants run on each person's setup. Ramp found that a skill installed on day one taught people more than its training sessions did.
+  Tags: `org-rollout`, `non-engineers`, `skills`
+
 - **[Uber — Agentic AI at Uber beyond engineering: Agentic Pods](https://x.com/praveenTweets/status/2074605343439810922)** — Praveen Neppalli Naga, 2026-07
   With 99% of engineers on AI tools and 70%+ of PRs attributed to agents, Uber paired about 30 AI-proficient engineers with business experts in 10-day pods (shadow, prioritize, build, validate, ship): 16 pods across 16 functions in two months. Reported results include capital allocation across 150 cities going from 15 hours to 30 minutes. Borderline: CTO self-report with no method detail, included for its concrete pod format.
   Tags: `non-engineers`, `pods`, `borderline`
