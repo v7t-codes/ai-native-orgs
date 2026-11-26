@@ -25,6 +25,10 @@
 
 ### Vocabulary and field guides
 
+- **[Lilian Weng — Harness Engineering for Self-Improvement](https://lilianweng.github.io/posts/2026-07-04-harness/)** — Lilian Weng, 2026-07
+  A research survey that defines the harness as everything around the base model (planning, tool calls, context, artifacts, evaluation) and treats it as the near-term route to self-improvement. Its design rules match the practitioner posts: durable state in files, and subagent output kept as inspectable files and logs.
+  Tags: `harnesses`, `self-improvement`, `literature-review`
+
 - **[Thoughtworks — Harness engineering for coding agent users](https://martinfowler.com/articles/harness-engineering.html)** — Birgitta Böckeler, 2026-04
   A working vocabulary for people who use coding agents: feedforward guides (AGENTS.md, skills, LSP, MCP), feedback sensors (ArchUnit, ESLint, Semgrep, mutation testing), and the split between computational and inferential controls. She says plainly that the behaviour harness is unsolved and that AI-generated tests are not yet good enough to replace manual verification.
   Tags: `harnesses`, `vocabulary`, `sensors`
@@ -42,6 +46,18 @@
   Tags: `harnesses`, `cost`, `sensors`, `borderline`
 
 ### Production harness architectures
+
+- **[Harvey — Post-Training RLM Agents for End-to-End M&A Diligence](https://www.harvey.ai/blog/post-training-rlm-agents-for-m-and-a-diligence)** — Niko Grupen et al., 2026-09
+  A recursive language model (RLM) harness loads a data room of up to 80M tokens into a Python REPL and hands bounded slices to subagents. Mean pass rate rose from 23.3% to 62.4% across seven models, while Claude Code and Codex stopped reading early and never spawned subagents.
+  Tags: `harnesses`, `long-context`, `subagents`
+
+- **[Effective AI — Towards Self-Verifying Domain Agents](https://effectiveailabs.com/blog/self-verifying-domain-agents)** — Parthav Shergill, 2026-04
+  Domain rules live in a compiler: the agent writes a typed insurance-rating language whose checks catch silent lookup mismatches, hallucinated codes and dead code. It reached 0% error on a 43-step auto rater where the same model writing Python ended at 103.7%, on one small rater and six test policies.
+  Tags: `verification`, `compilers`, `domain-agents`
+
+- **[Pi — What I learned building an opinionated and minimal coding agent](https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)** — Mario Zechner, 2025-11
+  Four tools (read, write, edit, bash) and a system prompt plus tool definitions under 1,000 tokens, with no built-in to-dos, plan mode or permission prompts. Pi is now stewarded by Earendil, and Augment Code rebuilt its CLI on a fork of it.
+  Tags: `harnesses`, `minimal-agent`, `context-engineering`
 
 - **[Shopify — Building an agentic harness that outlasts the model](https://shopify.engineering/building-an-agentic-harness-that-outlasts-the-model)** — Zack Deveau, 2026-07
   Dispatch is an in-house security-scanning harness with nine stages, partitions sized to 20-30% of the context window, and verifiers on a different model that must prove each bug inside the app's own test suite. It scanned 80+ apps for 300+ findings in about six weeks at $50-$300 per full scan; generalist multi-agent runs gave theoretical, non-deterministic results, and deterministic code handles credentials, Git and storage.
@@ -73,6 +89,10 @@
 
 ### Context, cost and delegation
 
+- **[Augment Code — How we rebuilt the Auggie CLI harness to make tasks 53% cheaper than Claude Code](https://www.augmentcode.com/blog/auggie-cli-harness-rebuild-53-percent-cheaper)** — Tulga Tsogtgerel, Chris Kelly, 2026-08
+  Rebuilt on a fork of Pi with bash plus three file tools, because every tool schema is sent on every call: $1.27 per SWE-bench Pro task against $2.70 for Claude Code at about the same pass rate. Borderline: a vendor benchmark against a competitor.
+  Tags: `harnesses`, `cost`, `borderline`
+
 - **[Cursor — Improved token efficiency for longer agent runs](https://cursor.com/blog/improved-token-efficiency)** — Jediah Katz, Connor O'Keefe, Calvin Yee, 2026-09
   Harness-level context changes, each measured with A/B tests on real traffic: about 66% of the system prompt trimmed as models improved, MCP tools loaded on demand (46.9% fewer total tokens in sessions that call MCP), and cache breakpoints placed to cut cold cache misses by 20%. Overall token cost fell 7% with no quality loss.
   Tags: `harnesses`, `context-engineering`, `cost`
@@ -95,6 +115,10 @@
 - [Boris Cherny](../people/boris-cherny.md)
 - [Niko Grupen (Harvey)](../people/niko-grupen.md) — agentic harnesses for legal AI
 - [Birgitta Böckeler](../people/birgitta-bockeler.md)
+- [Lilian Weng](../people/lilian-weng.md)
+- [Mario Zechner](../people/mario-zechner.md)
+- [Ryan Lopopolo](../people/ryan-lopopolo.md)
+- [Walden Yan](../people/walden-yan.md)
 
 ## Related
 
@@ -102,7 +126,7 @@
 - [Memory, context files & skills](memory-and-context.md): AGENTS.md, skills and memory layers
 - [Security](security.md): sandboxes, egress control and permission layers
 - [Metrics](metrics.md): cost per task and per session
-- Orgs: [Shopify](../orgs/shopify.md), [Sierra](../orgs/sierra.md), [Replit](../orgs/replit.md), [Cursor](../orgs/cursor.md), [Cognition](../orgs/cognition.md), [Stripe](../orgs/stripe.md), [Anthropic](../orgs/anthropic.md)
+- Orgs: [Shopify](../orgs/shopify.md), [Sierra](../orgs/sierra.md), [Replit](../orgs/replit.md), [Cursor](../orgs/cursor.md), [Cognition](../orgs/cognition.md), [Stripe](../orgs/stripe.md), [Anthropic](../orgs/anthropic.md), [Harvey](../orgs/harvey.md), [Effective AI](../orgs/effective-ai.md), [Augment Code](../orgs/augment-code.md), [Duolingo](../orgs/duolingo.md)
 
 ## What's still missing here
 

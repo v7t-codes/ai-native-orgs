@@ -75,7 +75,7 @@ A starting set. The full list lives in [`orgs/`](orgs/).
 | [Microsoft](orgs/microsoft.md) | Causal study of its CLI-agent rollout; ten months of agent PR data in dotnet/runtime |
 | [GitHub](orgs/github.md) | Platform-side view of agent traffic; ported the Copilot runtime to Rust with Copilot |
 
-Also in [`orgs/`](orgs/): [AWS](orgs/aws.md) (AI-DLC), [Cognition](orgs/cognition.md), [Figma](orgs/figma.md), [Google](orgs/google.md), [Pinterest](orgs/pinterest.md), [PostHog](orgs/posthog.md), [Razorpay](orgs/razorpay.md), [Replit](orgs/replit.md), [Spotify](orgs/spotify.md), [Vercel](orgs/vercel.md).
+Also in [`orgs/`](orgs/): [Augment Code](orgs/augment-code.md), [AWS](orgs/aws.md) (AI-DLC), [Cognition](orgs/cognition.md), [Decagon](orgs/decagon.md) (post-training), [Dropbox](orgs/dropbox.md), [Duolingo](orgs/duolingo.md), [Effective AI](orgs/effective-ai.md) (a compiler for insurance rating), [Figma](orgs/figma.md), [Google](orgs/google.md), [Harvey](orgs/harvey.md) (post-training), [Pinterest](orgs/pinterest.md), [PostHog](orgs/posthog.md), [Razorpay](orgs/razorpay.md), [Replit](orgs/replit.md), [Spawn](orgs/spawn.md), [Spotify](orgs/spotify.md), [Thinking Machines](orgs/thinking-machines.md), [Vercel](orgs/vercel.md).
 
 ## Contributing
 
