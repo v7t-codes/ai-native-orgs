@@ -68,7 +68,7 @@ Requested by the maintainer on 2026-11-26:
 
 - 2026-11-26: Created
 - 2026-11-26: Sources read in full (curl, X via browser and fxtwitter); STORY-001 payload reused for Augment, Duolingo, Spawn and the seven researched people
-- 2026-11-26: 10 new people files, Niko Grupen rewritten, Thariq Shihipar role fixed; 8 new org files; harnesses and ai-native-products cross-links; README org list
+- 2026-11-26: 9 new people files, Niko Grupen rewritten, Thariq Shihipar role fixed; 8 new org files; harnesses and ai-native-products cross-links; README org list
 - 2026-11-26: Link check: 107 external URLs return 200, no broken relative links
 - 2026-11-26: Broad X search since 2026-11-01 surfaced nothing practitioner-grade beyond the above; LangChain knowledge factory stays rejected (STORY-001)
 
