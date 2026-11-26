@@ -1,6 +1,6 @@
 # Thariq Shihipar
 
-Member of technical staff at Anthropic, working on Claude Code. Writes about how the Claude Code team uses skills, context and task-specific harnesses.
+Worked on Claude Code at Anthropic until October 2026 and joined OpenAI in November 2026 ([announcement](https://x.com/trq212/status/2125675533761671405)). The posts below, written at Anthropic, cover how the Claude Code team uses skills, context and task-specific harnesses.
 
 **Where to follow:**
 - X: [@trq212](https://x.com/trq212)
